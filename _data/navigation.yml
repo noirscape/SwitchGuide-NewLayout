@@ -1,0 +1,38 @@
+---
+main:
+  - title: FAQ
+    url: /faq.html
+  - title: Credits # ALWAYS GOES LAST!
+    url: /credits.html
+progress-bar:
+  - title: Setting up your sdcard
+    url: /sdcard.html
+  - title: OS Specific Preparations
+    children:
+      - title: Windows
+        url: /os-specific-preparations/windows.html
+      - title: macOS/Linux
+        url: /os-specific-preparations/linux.html
+      - title: chromeOS/android
+        url: /os-specific-preparations/android.html
+  - title: NAND Dumping
+    children:
+      - title: Windows
+        url: /nand-dump/windows.html
+      - title: macOS/Linux
+        url: /nand-dump/linux.html
+      - title: chromeOS/android
+        url: /nand-dump/android.html
+  - title: Launching CFW
+    children:
+      - title: Windows
+        url: /launching-cfw/windows.html
+      - title: macOS/Linux
+        url: /launching-cfw/linux.html
+      - title: chromeOS/android
+        url: /launching-cfw/android.html
+  - title: Dumping your console keys
+    url: /keydump.html
+  - title: Final notes
+    url: /finalizing.html
+---

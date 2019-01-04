@@ -1,13 +1,13 @@
 ---
-layout: default
+layout: single
 title: Dumping your console keys.
 ---
 
 BIS keys are console-specific. Using another consoles BIS keys may result in a bricked system. Always use your own BIS keys.
-{: .info-box}
+{: .notice--primary}
 
 Sharing your keys is considered piracy.
-{: .info-box}
+{: .notice--primary}
 
 In this step we will dump your keys. You need these keys to decrypt NCAs and your NAND. Being able to decrypt your NAND is essential in case you ever need to downgrade your Nintendo Switch to a lower version.
 
@@ -41,5 +41,5 @@ In this step we will dump your keys. You need these keys to decrypt NCAs and you
 3. Press `+`.
 4. In the `switch` folder should now be a file called `prod.keys`. Put this file in a safe location as it contains your device keys.
 
-You should read the [Final Notes]({{ '/finalizing.html' | relative_url }}){: .a-table}.
-{: .info-box}
+You should read the [Final Notes]({{ '/finalizing.html' | relative_url }}).
+{: .notice--primary}

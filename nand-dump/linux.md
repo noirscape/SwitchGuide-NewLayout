@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: NAND dumping (macOS/Linux)
 ---
 
@@ -7,7 +7,7 @@ title: NAND dumping (macOS/Linux)
 
 ### Dump your NAND.
 
-1. Boot your Switch into RCM and connect it to your PC, see [this guide](https://noirscape.github.io/RCM-Guide){: target="_blank" .a-table} for more information on RCM.
+1. Boot your Switch into RCM and connect it to your PC, see [this guide](https://noirscape.github.io/RCM-Guide){: target="_blank" } for more information on RCM.
 2. Run the `boot_Linux.sh` or `boot_macOS.command` script included in the bootkit folder.
 3. Use the volume and power buttons to select `Tools`, then select `Backup`.
 4. Use the volume and power buttons to select `Backup eMMC BOOT0/1`.
@@ -22,5 +22,5 @@ title: NAND dumping (macOS/Linux)
 11. Put your SD card back in your Switch.
 12. If your SD card has had less than 30GB of space available during the backup process or your SD card was not formatted as exFAT, you will need to combine the "rawnand.bin" files. See [NAND dumping (combining partial dumps)](rawnand-combine.html) for instructions on how to do this.
 
-[Continue to Launching CFW (macOS/Linux)]({{ '/launching-cfw/linux.html' | relative_url }}){: .a-table}
-{: .info-box}
+[Continue to Launching CFW (macOS/Linux)]({{ '/launching-cfw/linux.html' | relative_url }})
+{: .notice--primary}

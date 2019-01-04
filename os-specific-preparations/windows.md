@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: OS-Specific preparations (Windows)
 ---
 
@@ -21,5 +21,5 @@ title: OS-Specific preparations (Windows)
 3. Say yes to the UAC prompt if it appears, then click `Next`.
 4. Click `Finish`.
 
-[Continue to NAND dumping (Windows)]({{ '/nand-dump/windows.html' | relative_url }}){: .a-table}
-{: .info-box}
+[Continue to NAND dumping (Windows)]({{ '/nand-dump/windows.html' | relative_url }})
+{: .notice--primary}

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: OS-Specific preparations (macOS/Linux)
 ---
 
@@ -8,10 +8,10 @@ title: OS-Specific preparations (macOS/Linux)
 ### What you will need
 
 - The following files (use Ctrl-S or Apple key-S to save these):
-  - [fusee-launcher.py](https://github.com/Cease-and-DeSwitch/fusee-launcher/raw/master/fusee-launcher.py){: target="_blank" .a-table}
-  - Linux: [boot_Linux.sh.zip](https://noirscape.github.io/SwitchGuide/assets/boot_Linux.sh.zip){: target="_blank" .a-table}
-  - macOS: [boot_macOS.command.zip](https://noirscape.github.io/SwitchGuide/assets/boot_macOS.command.zip){: target="_blank" .a-table}
-- [intermezzo.bin](https://github.com/Cease-and-DeSwitch/fusee-launcher/raw/master/intermezzo.bin){: .a-table}
+  - [fusee-launcher.py](https://github.com/Cease-and-DeSwitch/fusee-launcher/raw/master/fusee-launcher.py){: target="_blank" }
+  - Linux: [boot_Linux.sh.zip](https://noirscape.github.io/SwitchGuide/assets/boot_Linux.sh.zip){: target="_blank" }
+  - macOS: [boot_macOS.command.zip](https://noirscape.github.io/SwitchGuide/assets/boot_macOS.command.zip){: target="_blank" }
+- [intermezzo.bin](https://github.com/Cease-and-DeSwitch/fusee-launcher/raw/master/intermezzo.bin)
 - Python 3. This will be installed during the next steps, so no need to download anything.
 - `pyusb`. This will be installed during the next steps, so no need to download anything.
 
@@ -43,5 +43,5 @@ If you are on Linux, install Python 3 using your package manager. On Ubuntu syst
 3. In the `bin` folder, place `fusee-launcher.py` and `intermezzo.bin`.
 4. From the Hekate zip, copy the file starting with `hekate_ctcaer` to the `bin` folder and rename it to `payload.bin`.
 
-[Continue to NAND dumping (macOS/Linux)]({{ '/nand-dump/linux.html' | relative_url }}){: .a-table}
-{: .info-box}
+[Continue to NAND dumping (macOS/Linux)]({{ '/nand-dump/linux.html' | relative_url }})
+{: .notice--primary}

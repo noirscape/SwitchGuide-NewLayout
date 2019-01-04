@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: Launching CFW (macOS/Linux)
 ---
 
@@ -7,7 +7,7 @@ title: Launching CFW (macOS/Linux)
 
 ### Launch Hekate
 
-1. Boot your Switch into RCM and connect it to your PC, see [this guide](https://noirscape.github.io/RCM-Guide){: target="_blank" .a-table} for more information on RCM.
+1. Boot your Switch into RCM and connect it to your PC, see [this guide](https://noirscape.github.io/RCM-Guide){: target="_blank" } for more information on RCM.
 2. Run the `boot_Linux.sh` or `boot_macOS.command` script included in the bootkit folder.
 
 ### Launch Atmosphère
@@ -17,4 +17,4 @@ title: Launching CFW (macOS/Linux)
 3. Once your Switch boots, you can open the album applet to load the Homebrew Launcher.
 
 You should dump your [keys]({{ '/keydump.html' | relative_url }}) next.
-{: .info-box}
+{: .notice--primary}

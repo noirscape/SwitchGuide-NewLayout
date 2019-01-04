@@ -1,18 +1,18 @@
 ---
-layout: default
+layout: single
 title: Setting up your SD card
 ---
 
 ### What you will need
 
 - The latest release of [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere/releases/latest). For this step, you will need the zip file and `fusee-primary.bin`.
-- The latest release of [Hekate](https://github.com/ctcaer/hekate/releases/latest){: .a-table target="_blank"}
-- The latest release of the [homebrew launcher](https://github.com/switchbrew/nx-hbmenu/releases/latest){: .a-table target="_blank"}.
-- The latest release of [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases/latest){: .a-table target="_blank"}. Download the `.nro` file.
-- The latest release of [hb-appstore](https://github.com/vgmoose/hb-appstore/releases/latest){: .a-table target="_blank"}.
-- [sys-ftpd.kip](https://noirscape.github.io/SwitchGuide/assets/sys-ftpd.kip){: .a-table} ([source](https://github.com/jakibaki/sys-ftpd){: .a-table target="_blank"})
-- [hekate_ipl.ini](https://noirscape.github.io/SwitchGuide/assets/hekate_ipl.ini) (use Ctrl-S or Apple key-S to save this file.) Make sure this file ends in `.ini` ! Some browsers might add `.txt` to the end of this filename. If your browser does this, remove the `.txt` extension! On Windows and macOS you might need to disable hiding extensions from files. To do so, [see this wikihow](https://www.wikihow.tech/Show-File-Extensions-on-Windows). On macOS, see [this iDownloadBlog page](https://www.idownloadblog.com/2014/10/29/how-to-show-or-hide-filename-extensions-in-os-x-yosemite/).
-- The latest release of [nx-hbloader](https://github.com/switchbrew/nx-hbloader/releases/latest){: .a-table}
+- The latest release of [Hekate](https://github.com/ctcaer/hekate/releases/latest){: target="_blank"}
+- The latest release of the [homebrew launcher](https://github.com/switchbrew/nx-hbmenu/releases/latest){: target="_blank"}.
+- The latest release of [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases/latest){: target="_blank"}. Download the `.nro` file.
+- The latest release of [hb-appstore](https://github.com/vgmoose/hb-appstore/releases/latest){: target="_blank"}.
+- [sys-ftpd.kip](https://noirscape.github.io/SwitchGuide/assets/sys-ftpd.kip) ([source](https://github.com/jakibaki/sys-ftpd){: target="_blank"})
+- [hekate_ipl.zip](https://noirscape.github.io/SwitchGuide/assets/hekate_ipl.zip).
+- The latest release of [nx-hbloader](https://github.com/switchbrew/nx-hbloader/releases/latest)
 
 <!-- Below section to be uncommented whenever shit breaks on a FW update. -->
 <!-- ### Blocking updates
@@ -50,7 +50,7 @@ This is to remove a downloaded system update to prevent the update from nagging 
 9. Copy `hbl.nsp` from the `nx-hbloader` release to the `atmosphere` folder.
 10. In the `atmosphere` folder, make a folder called `kips`.
 11. If you are above firmware 3.0.0, copy `sys-ftpd.kip` to the `kips` folder. Otherwise, skip this step.
-12. Copy `hekate_ipl.ini` to the `bootloader` folder on your SD card.
+12. Copy `hekate_ipl.ini` from `hekate_ipl.zip` to the `bootloader` folder on your SD card.
 13. Safely remove your microSD card and plug it back in your Switch.
 
 ---
@@ -59,6 +59,6 @@ This is to remove a downloaded system update to prevent the update from nagging 
 
 The next step depends on the platform you want to boot CFW from.
 
-- If you plan on booting CFW from a Windows system, go [here](os-specific-preparations/windows.html){: .a-table}
-- If you plan on booting CFW from a macOS or Linux system, go [here](os-specific-preparations/linux.html){: .a-table}
-- If you plan on booting CFW from an Android or chromeOS device, go [here](os-specific-preparations/android.html){: .a-table}
+- If you plan on booting CFW from a Windows system, go [here](os-specific-preparations/windows.html)
+- If you plan on booting CFW from a macOS or Linux system, go [here](os-specific-preparations/linux.html)
+- If you plan on booting CFW from an Android or chromeOS device, go [here](os-specific-preparations/android.html)

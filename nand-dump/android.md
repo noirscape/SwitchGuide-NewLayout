@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: NAND dumping (Android/chromeOS)
 ---
 
@@ -7,8 +7,8 @@ title: NAND dumping (Android/chromeOS)
 
 ### Dump your NAND.
 
-1. Boot your Switch into RCM and connect it to your device, see [this guide](https://noirscape.github.io/RCM-Guide){: target="_blank" .a-table} for more information on RCM.
-2. Go to [this website](https://atlas44.s3-us-west-2.amazonaws.com/web-fusee-launcher/index.html){: .a-table target="_blank"}.
+1. Boot your Switch into RCM and connect it to your device, see [this guide](https://noirscape.github.io/RCM-Guide){: target="_blank" } for more information on RCM.
+2. Go to [this website](https://atlas44.s3-us-west-2.amazonaws.com/web-fusee-launcher/index.html){: target="_blank"}.
 3. Under the Payload section, select upload payload and upload the .bin file you previously downloaded.
 4. Click `do the thing`, select `APX` and click connect.</li>
 5. Use the volume and power buttons to select `Tools`, then select `Backup`.
@@ -24,5 +24,5 @@ title: NAND dumping (Android/chromeOS)
 13. Put your SD card back in your Switch.
 14. If your SD card has had less than 30GB of space available during the backup process or your SD card was not formatted as exFAT, you will need to combine the "rawnand.bin" files. See [NAND dumping (combining partial dumps)](rawnand-combine.html) for instructions on how to do this. You will need a macOS/Linux or Windows device to combine your NAND dumps.
 
-[Continue to Launching CFW (Android)]({{ '/launching-cfw/android.html' | relative_url }}){: .a-table}
-{: .info-box}
+[Continue to Launching CFW (Android)]({{ '/launching-cfw/android.html' | relative_url }})
+{: .notice--primary}

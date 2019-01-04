@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: NAND dumping (Windows)
 ---
 
@@ -7,7 +7,7 @@ title: NAND dumping (Windows)
 
 ### Dump your NAND.
 
-1. Boot your Switch into RCM and connect it to your PC, see [this guide](https://noirscape.github.io/RCM-Guide){: target="_blank" .a-table} for more information on RCM.
+1. Boot your Switch into RCM and connect it to your PC, see [this guide](https://noirscape.github.io/RCM-Guide){: target="_blank" } for more information on RCM.
 2. Run `TegraRcmGUI.exe` from your bootkit folder.
 3. Make sure the icon in the bottom left says `RCM OK`.
 4. Double click on the first entry in the favorites list to launch Hekate.
@@ -24,5 +24,5 @@ title: NAND dumping (Windows)
 13. Put your SD card back in your Switch.
 14. If your SD card has had less than 30GB of space available during the backup process or your SD card was not formatted as exFAT, you will need to combine the "rawnand.bin" files. See [NAND dumping (combining partial dumps)](rawnand-combine.html) for instructions on how to do this.
 
-[Continue to Launching CFW (Windows)]({{ '/launching-cfw/windows.html' | relative_url }}){: .a-table}
-{: .info-box}
+[Continue to Launching CFW (Windows)]({{ '/launching-cfw/windows.html' | relative_url }})
+{: .notice--primary}

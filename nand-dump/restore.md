@@ -1,5 +1,5 @@
 ---
-layout: nosidebar
+layout: single
 title: Restoring a NAND dump
 ---
 

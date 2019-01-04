@@ -1,10 +1,17 @@
 ---
-layout: default
-title: Switch Homebrew Guide
+layout: splash
+title: "Switch Homebrew Guide" #
+header:
+  overlay_color: "#5e616c" #
+  overlay_image: assets/header.jpg
+  overlay_filter: 0.5
+  caption:
+
+excerpt: "From zero to Hekate and Atmosphere!"
 ---
 
-If you need assistance, visit us on [Discord](https://discord.gg/C29hYvh){: target="_blank" .a-table}.
-{: .info-box}
+If you need assistance, visit us on [Discord](https://discord.gg/C29hYvh){: target="_blank" }.
+{: .notice--primary}
 
 ### Terminology used in this guide
 
@@ -27,7 +34,7 @@ This guide will boot you into Atmosphère using a combination of the RCM, the He
     - If your serial number is listed as green, you have a "first-generation" Switch and will be able to boot CFW.
     - If your serial number is listed as orange, follow the guide, but you might not be able to boot CFW.
     - If your serial number is listed as red, your Switch is patched and you will not be able to boot CFW.
-- A way to put your Switch into RCM. See [this guide](https://noirscape.github.io/RCM-Guide){: target="_blank" .a-table} for more information. Users on 1.0.0 can also enter RCM from a software side by using a program called reboot_to_rcm. See [here](1-0-0.html){: target="_blank" .a-table} for more details.
+- A way to put your Switch into RCM. See [this guide](https://noirscape.github.io/RCM-Guide){: target="_blank" } for more information. Users on 1.0.0 can also enter RCM from a software side by using a program called reboot_to_rcm. See [here](1-0-0.html){: target="_blank" } for more details.
 - A host PC running Windows, Linux, macOS or ChromeOS, or an Android device.
   - It's also possible to boot from a jailbroken iOS device using [NXBoot](https://mologie.github.io/nxboot/), but this is not officially supported.
 - A USB Type-C to USB-A cable, or a USB Type-C to USB Type-C cable. (Depending on what your host PC supports.)
@@ -38,14 +45,17 @@ This guide will boot you into Atmosphère using a combination of the RCM, the He
 
 ### What are the advantages to running homebrew
 
-Running homebrew will allow you to run tools such as [Checkpoint](https://github.com/BernardoGiordano/Checkpoint){: target="_blank" .a-table}, a save manager or use [sys-ftpd](https://github.com/jakibaki/sys-ftpd) to run an FTP server to transfer files. You also can run emulators like [RetroArch](https://www.retroarch.com/?page=platforms){: target="_blank" .a-table} to play retro games on the Switch. In addition, you can run homebrew games such as [tetriswitch](https://gbatemp.net/threads/tetriswitch-a-tetris-clone-for-the-switch.498481){: target="_blank" .a-table} and [Pong](https://github.com/I-EAT-CHEEZE-YO/switch_sdl_pong){: target="_blank" .a-table} and [SudokuNX](https://github.com/ZetaDesigns/SudokuNX){: target="_blank" .a-table} or ports of other games, such as [Chocolate Doom](https://gbatemp.net/threads/chocolate-doom-ported-to-the-nintendo-switch.506909/){: target="_blank" .a-table}, [Doom 3](https://github.com/fgsfdsfgs/dhewm3){: target="_blank" .a-table} [Quake](https://github.com/fgsfdsfgs/nxquake){: target="_blank" .a-table}, [Wolfenstein 3D](https://gbatemp.net/threads/wolfenstein-3d-port.508755/){: target="_blank" .a-table} and [Duke Nukem 3D](https://gbatemp.net/threads/duke-nukem-3d.502386/){: target="_blank" .a-table}. It's also possible to [theme](https://github.com/suchmememanyskill/SwitchThemeGuide/wiki/NX-Theme-Injector) your Nintendo Switch.
+Running homebrew will allow you to run tools such as [Checkpoint](https://github.com/BernardoGiordano/Checkpoint){: target="_blank" }, a save manager or use [sys-ftpd](https://github.com/jakibaki/sys-ftpd) to run an FTP server to transfer files. You also can run emulators like [RetroArch](https://www.retroarch.com/?page=platforms){: target="_blank" } to play retro games on the Switch. In addition, you can run homebrew games such as [tetriswitch](https://gbatemp.net/threads/tetriswitch-a-tetris-clone-for-the-switch.498481){: target="_blank" } and [Pong](https://github.com/I-EAT-CHEEZE-YO/switch_sdl_pong){: target="_blank" } and [SudokuNX](https://github.com/ZetaDesigns/SudokuNX){: target="_blank" } or ports of other games, such as [Chocolate Doom](https://gbatemp.net/threads/chocolate-doom-ported-to-the-nintendo-switch.506909/){: target="_blank" }, [Doom 3](https://github.com/fgsfdsfgs/dhewm3){: target="_blank" } [Quake](https://github.com/fgsfdsfgs/nxquake){: target="_blank" }, [Wolfenstein 3D](https://gbatemp.net/threads/wolfenstein-3d-port.508755/){: target="_blank" } and [Duke Nukem 3D](https://gbatemp.net/threads/duke-nukem-3d.502386/){: target="_blank" }. It's also possible to [theme](https://github.com/suchmememanyskill/SwitchThemeGuide/wiki/NX-Theme-Injector) your Nintendo Switch.
 
 ### Are there any risks to running homebrew
 
-Yes. Nintendo has increased the Telemetry on the Nintendo Switch compared to previous consoles and does ban if they detect you using homebrew. You can find more details on this and a comprehensive list [in the FAQ](faq.html#ban){: target="_blank" .a-table}. That said, Atmosphère, the CFW that will be installed if you use this guide includes the `creport` module. This module will store crash dumps to your SD card and does not report them to Nintendo. This means that you can safely use Homebrew.
+Yes. Nintendo has increased the Telemetry on the Nintendo Switch compared to previous consoles and does ban if they detect you using homebrew. You can find more details on this and a comprehensive list [in the FAQ](faq.html#ban){: target="_blank" }. That said, Atmosphère, the CFW that will be installed if you use this guide includes the `creport` module. This module will store crash dumps to your SD card and does not report them to Nintendo. This means that you can safely use Homebrew.
 
-Users on firmware 1.0.0 should follow the [1.0.0 guide](1-0-0.html){: .a-table} as it contains important instructions.
-{: .info-box}
+---
+Users on firmware 1.0.0 should follow the [1.0.0 guide](1-0-0.html) as it contains important instructions.
+{: .notice--primary}
 
-Go to [Setting up your SD card](sdcard.html){: .a-table} to get started.
-{: .info-box}
+Go to [Setting up your SD card](sdcard.html) to get started.
+{: .notice--primary}
+
+---

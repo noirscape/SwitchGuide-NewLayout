@@ -1,25 +1,26 @@
 ---
-layout: default
+layout: single
 title: FAQ
+sidebar: false
 ---
 
 Below you will find a list of commonly asked questions and answers.
 
 ## Table of Contents
 
-- [RCM related](#rcm){: .a-table}
-  - [My Switch shows no screen when turning on/"help I'm bricked"](#not-bricked){: .a-table}
-  - [When I connect my Switch to my computer, there is no APX device listed in Zadig!](#not-zadig){: .a-table}
-- [Ban related](#ban){: .a-table}
-  - [How do I prevent getting banned? What are some of the common causes for bans?](#prevent-ban){: .a-table}
-  - [How does Nintendo ban my system?](#how-ban){: .a-table}
+- [RCM related](#rcm)
+  - [My Switch shows no screen when turning on/"help I'm bricked"](#not-bricked)
+  - [When I connect my Switch to my computer, there is no APX device listed in Zadig!](#not-zadig)
+- [Ban related](#ban)
+  - [How do I prevent getting banned? What are some of the common causes for bans?](#prevent-ban)
+  - [How does Nintendo ban my system?](#how-ban)
   - [I want to prevent my Switch from connecting to Nintendo's servers!](#no-nintendo-network)
-- [Homebrew related](#homebrew){: .a-table}
+- [Homebrew related](#homebrew)
   - [My switch won't boot after I select Atmosphère in hekate!](#sys-ftpd)
-  - [Does this guide work on system version x?](#can-i-run-on){: .a-table}
-  - [What is the recommended microSD card size for Homebrew?](#recommended-size){: .a-table}
+  - [Does this guide work on system version x?](#can-i-run-on)
+  - [What is the recommended microSD card size for Homebrew?](#recommended-size)
   - [What filesystem should I use on my microSD card?](#filesystem)
-  - [Why is only Atmosphère and Hekate supported?](#why-atmosphere-hekate){: .a-table}
+  - [Why is only Atmosphère and Hekate supported?](#why-atmosphere-hekate)
   - [I used SX OS/ReiNX and I want to use this setup instead. Do I need to do anything specific?](#reinx-sxos-earlier)
   - [My homebrew applications are not showing up!](#archive-bit)
 
@@ -55,7 +56,7 @@ Note that the current setup given in the guide prevents you from doing the first
 
 A: Depends on the context. By far the majority of bans are due to the Switch's error reporting and general telemetry (telemetry is the collection of data). If any of the collected data looks out of place to Nintendo, they can ban your system.
 
-Users in European regions should go [here](https://accounts.nintendo.com/setting){: .a-table target="_blank"}, click on the "Edit" button next to usage information and untick both options and click "Save changes". While this will not fully disable telemetry, it will disable the majority of it.
+Users in European regions should go [here](https://accounts.nintendo.com/setting){: target="_blank"}, click on the "Edit" button next to usage information and untick both options and click "Save changes". While this will not fully disable telemetry, it will disable the majority of it.
 
 **Q: I want to prevent my Switch from connecting to Nintendo's servers!**{: #no-nintendo-network}
 

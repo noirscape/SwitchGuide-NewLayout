@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: Final notes
 ---
 
@@ -34,7 +34,7 @@ To keep track of new releases of Atmosphère and Hekate, I recommend subscribing
 ### Changing the title the Homebrew Launcher uses
 
 To do this, you need to have downloaded at least **1** game/application from the Nintendo eShop. If you have not done so, there are free games/applications available on the eShop. Which title you select does not matter, any will work.
-{: .info-box}
+{: .notice--primary}
 
 In order to make use of some Homebrew, we need to give the Homebrew Launcher more memory. To do this, we need to run the Homebrew Launcher from an installed game on your Switch.
 
@@ -69,5 +69,5 @@ If you want to change the game used to launch the Homebrew Launcher, just follow
 - If you need to launch Stock firmware, select the `Stock` option when in Hekate's `Launch...` menu. You should not need to do this under normal circumstances, but it may be useful for troubleshooting.
   - **If you use the homebrew ChoiDuJourNX to update your Switch's firmware to prevent burning these fuses, this option will burn fuses!**
 
-It is highly advised to also read the [FAQ](faq.html){: .a-table target="_blank")}
-{: .info-box}
+It is highly advised to also read the [FAQ](faq.html){: target="_blank")}
+{: .notice--primary}

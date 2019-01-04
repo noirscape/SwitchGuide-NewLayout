@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: single
 title: NAND dumping
 ---
 
 The system I want to dump my NAND from is...
 
-- [Windows](windows.html){: .a-table}
-- [ChromeOS/android](android.html){: .a-table}
-- [macOS/Linux](linux.html){: .a-table}
+- [Windows](windows.html)
+- [ChromeOS/android](android.html)
+- [macOS/Linux](linux.html)
