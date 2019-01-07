@@ -2,6 +2,10 @@
 main:
   - title: FAQ
     url: /faq.html
+  - title: Discord
+    url: /discord.html
+  - title: Recommended Hardware
+    url: /recommended-hardware.html
   - title: Credits # ALWAYS GOES LAST!
     url: /credits.html
 progress-bar:

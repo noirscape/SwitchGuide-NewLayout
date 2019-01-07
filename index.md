@@ -3,14 +3,14 @@ layout: splash
 title: "Switch Homebrew Guide" #
 header:
   overlay_color: "#5e616c" #
-  overlay_image: assets/header.jpg
+  overlay_image: assets/header.png
   overlay_filter: 0.5
   caption:
 
 excerpt: "From zero to Hekate and Atmosphere!"
 ---
 
-If you need assistance, visit us on [Discord](https://discord.gg/C29hYvh){: target="_blank" }.
+If you need assistance, visit us on [Discord](/discord.html){: target="_blank" }.
 {: .notice--primary}
 
 ### Terminology used in this guide

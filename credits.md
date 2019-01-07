@@ -24,6 +24,7 @@ Special thanks go to all of the following people and groups for making this guid
 - [LavaTech](https://lavatech.top/) for 90DNS.
 - [ihaveamac](https://github.com/ihaveamac) for updating macOS instructions.
 - The helpers and staff of the Nintendo Homebrew discord for providing questions for the FAQ.
+- [WithinRafael](https://twitter.com/WithinRafael) for the header image on the front page.
 
 Finally, I am [noirscape](https://github.com/noirscape), the writer of this guide.
 
