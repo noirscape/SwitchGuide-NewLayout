@@ -9,8 +9,8 @@ title: OS-Specific preparations (macOS/Linux)
 
 - The following files (use Ctrl-S or Apple key-S to save these):
   - [fusee-launcher.py](https://github.com/Cease-and-DeSwitch/fusee-launcher/raw/master/fusee-launcher.py){: target="_blank" }
-  - Linux: [boot_Linux.sh.zip](https://noirscape.github.io/SwitchGuide/assets/boot_Linux.sh.zip){: target="_blank" }
-  - macOS: [boot_macOS.command.zip](https://noirscape.github.io/SwitchGuide/assets/boot_macOS.command.zip){: target="_blank" }
+  - Linux: [boot_Linux.sh.zip](https://switchgui.de/assets/boot_Linux.sh.zip){: target="_blank" }
+  - macOS: [boot_macOS.command.zip](https://switchgui.de/assets/boot_macOS.command.zip){: target="_blank" }
 - [intermezzo.bin](https://github.com/Cease-and-DeSwitch/fusee-launcher/raw/master/intermezzo.bin)
 - Python 3. This will be installed during the next steps, so no need to download anything.
 - `pyusb`. This will be installed during the next steps, so no need to download anything.

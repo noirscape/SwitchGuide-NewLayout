@@ -10,8 +10,8 @@ title: Setting up your SD card
 - The latest release of the [homebrew launcher](https://github.com/switchbrew/nx-hbmenu/releases/latest){: target="_blank"}.
 - The latest release of [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases/latest){: target="_blank"}. Download the `.nro` file.
 - The latest release of [hb-appstore](https://github.com/vgmoose/hb-appstore/releases/latest){: target="_blank"}.
-- [sys-ftpd.kip](https://noirscape.github.io/SwitchGuide/assets/sys-ftpd.kip) ([source](https://github.com/jakibaki/sys-ftpd){: target="_blank"})
-- [hekate_ipl.ini](https://noirscape.github.io/SwitchGuide/assets/hekate_ipl.zip){: download=""}.
+- [sys-ftpd.kip](https://switchgui.de/) ([source](https://github.com/jakibaki/sys-ftpd){: target="_blank"})
+- [hekate_ipl.ini](https://switchgui.de/ip){: download=""}.
 - The latest release of [nx-hbloader](https://github.com/switchbrew/nx-hbloader/releases/latest)
 
 ### Setting up your sd card
