@@ -9,6 +9,8 @@ main:
   - title: Credits # ALWAYS GOES LAST!
     url: /credits.html
 progress-bar:
+  - title: Blocking telemetry with 90DNS
+    url: /90dns.html
   - title: Setting up your sdcard
     url: /sdcard.html
   - title: OS Specific Preparations

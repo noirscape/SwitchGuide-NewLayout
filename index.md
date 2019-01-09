@@ -55,7 +55,7 @@ Yes. Nintendo has increased the Telemetry on the Nintendo Switch compared to pre
 Users on firmware 1.0.0 should follow the [1.0.0 guide](1-0-0.html) as it contains important instructions.
 {: .notice--primary}
 
-Go to [Setting up your SD card](sdcard.html) to get started.
+Go to [Blocking telemetry with 90DNS](90dns.html) to get started.
 {: .notice--primary}
 
 ---

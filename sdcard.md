@@ -11,31 +11,8 @@ title: Setting up your SD card
 - The latest release of [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases/latest){: target="_blank"}. Download the `.nro` file.
 - The latest release of [hb-appstore](https://github.com/vgmoose/hb-appstore/releases/latest){: target="_blank"}.
 - [sys-ftpd.kip](https://noirscape.github.io/SwitchGuide/assets/sys-ftpd.kip) ([source](https://github.com/jakibaki/sys-ftpd){: target="_blank"})
-- [hekate_ipl.zip](https://noirscape.github.io/SwitchGuide/assets/hekate_ipl.zip).
+- [hekate_ipl.ini](https://noirscape.github.io/SwitchGuide/assets/hekate_ipl.zip){: download=""}.
 - The latest release of [nx-hbloader](https://github.com/switchbrew/nx-hbloader/releases/latest)
-
-<!-- Below section to be uncommented whenever shit breaks on a FW update. -->
-<!-- ### Blocking updates
-
-1. Open the settings applet on your Switch.
-2. Go to `Internet` -> `Internet Settings`.
-3. You will see a list of all WiFi networks nearby and those you've ever been connected to.
-4. For each network you've been connected to, select it and choose `Change settings`
-5. Change `DNS` to `Manual`.
-6. Set the primary DNS server to `163.172.141.219`.
-7. Set the secondary DNS `45.248.48.62`.
-8. Press the save button and then `B` to return to the network list.
-9. Repeat steps 4 to 8 for all WiFi networks you've been connected to.
-10. Press the Home button to get back to the main menu.
-
-### Removing update data.
-
-This is to remove a downloaded system update to prevent the update from nagging you whenever you start a game.
-
-1. Power off your Switch.
-2. Press Volume up + Volume down + Power at the same time until you see the Nintendo Switch logo appear.
-3. Your Switch will boot into Maintenance mode.
-4. Press the power button again to turn off your Switch. -->
 
 ### Setting up your sd card
 
@@ -50,7 +27,7 @@ This is to remove a downloaded system update to prevent the update from nagging 
 9. Copy `hbl.nsp` from the `nx-hbloader` release to the `atmosphere` folder.
 10. In the `atmosphere` folder, make a folder called `kips`.
 11. If you are above firmware 3.0.0, copy `sys-ftpd.kip` to the `kips` folder. Otherwise, skip this step.
-12. Copy `hekate_ipl.ini` from `hekate_ipl.zip` to the `bootloader` folder on your SD card.
+12. Copy `hekate_ipl.ini` to the `bootloader` folder on your SD card.
 13. Safely remove your microSD card and plug it back in your Switch.
 
 ---

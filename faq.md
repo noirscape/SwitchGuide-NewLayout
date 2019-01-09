@@ -60,18 +60,7 @@ Users in European regions should go [here](https://accounts.nintendo.com/setting
 
 **Q: I want to prevent my Switch from connecting to Nintendo's servers!**{: #no-nintendo-network}
 
-A: A program called 90DNS can be used to accomplish this. 90DNS blocks all Nintendo domains, except for the connection test domain, meaning that while your Switch will think it's online, it won't actually connect to Nintendo's servers. See below on how to set this up.
-
-1. Open the settings applet on your Switch.
-2. Go to `Internet` -> `Internet Settings`.
-3. You will see a list of all WiFi networks nearby and those you've ever been connected to.
-4. For each network you've been connected to, select it and choose `Change settings`
-5. Change `DNS` to `Manual`.
-6. Set the primary DNS server to `163.172.141.219`.
-7. Set the secondary DNS `45.248.48.62`.
-8. Press the save button and then `B` to return to the network list.
-9. Repeat steps 4 to 8 for all WiFi networks you've been connected to.
-10. Press the Home button to get back to the main menu.
+A: See [here](/90dns.html).
 
 ---
 
